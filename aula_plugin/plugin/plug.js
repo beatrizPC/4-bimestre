@@ -46,41 +46,33 @@
 						especiais = true;
 					}
 				}
-				
 				var msg = null;
 
 				if(senha.length>=8){
 					if(numeros && letras && especiais ){
 						msg = "Forte";
-						classe = "forte";
 					}
 					if(numeros && letras && !especiais || numeros && !letras && especiais || !numeros && letras && especiais ){
 						msg = "Moderada";
-						classe = "moderada";
 					}
 					if(numeros && !letras && !especiais || !numeros && letras && !especiais || !numeros && !letras && especiais ){
 						msg = "Fraca";
-						classe = "fraca";
 					}
 				}
 				else{
 					if(numeros && letras && especiais ){
 						msg = "Moderada";
-						classe = "moderada";
 					}
 					if(numeros && !letras && !especiais || !numeros && letras && !especiais || !numeros && !letras && especiais ){
 							msg = "Muito-Fraca";
-							classe = "muitofraca";
 						}					
 						if(numeros && letras && !especiais || numeros && !letras && especiais || !numeros && letras && especiais ){
 							msg = "Fraca";
-							classe = "fraca";
 						}
 
 					}
-				
+
 					$(".mensagem").text(msg);
-					$(".mensagem").attr("id", classe);
 			});
 
 	};
