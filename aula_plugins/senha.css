@@ -1,0 +1,27 @@
+#nome{
+	font-family: 'Bangers', cursive;
+	color: white;
+	font-size: 3.8em;
+}
+body{
+	margin-top: 306px;
+	text-align: center;
+	background-image: url("http://img.ibxk.com.br/2015/02/04/04173317993059.jpg");
+}
+.mensagem{
+	font-family: 'Bangers', cursive;
+	color: white;
+	font-size: 2.7em;
+}
+#fraca{
+	background-color: #00CC00;
+}
+#muitofraca{
+	background-color:#99FF99;
+}
+#moderada{
+	background-color:#FF9900;
+}
+#forte{
+	background-color:#FF0000;
+}
