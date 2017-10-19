@@ -1,0 +1,28 @@
+body{
+	background-image: url('./img/cidade.jpg');
+	color: #fff;
+	font-family: 'Josefin Slab', serif;
+	text-align: center;
+}
+fieldset{
+	width: 50%;
+	margin:0 auto;
+	font-size: 1.4em;
+}
+fieldset:hover{
+	background-color: rgba(255, 255, 255, 0.3);
+}
+#resultado{
+	font-size: 2em;
+	background-color: white;
+	color: #000;
+}
+#salvar{
+	font-size: 1.3em;
+	color: #000;
+	border-radius: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border: none;
+	background-color: rgba(255,255,255, 0.7);
+}
