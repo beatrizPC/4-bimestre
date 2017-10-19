@@ -1,0 +1,26 @@
+body{
+	font-size: 1.4em;
+	text-align: justify;
+	font-family: 'Josefin Slab', serif;
+	background-image: url('fundo.jpg');
+}
+.receitas{
+	width: 900px;
+	height: 200px;
+	
+	margin-left:225px;
+}
+.nome{
+	font-weight: bold;
+	text-align: center;
+}
+.imagem{
+	margin-left:355px;
+}
+.descricao{
+	font-size: 0.8em;
+	text-align: center;
+}
+.tit{
+	font-weight: bold;
+}
