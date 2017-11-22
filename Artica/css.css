@@ -1,0 +1,252 @@
+body {
+	background-image: url(http://68.media.tumblr.com/9d73bf7d1b787831ac90a041890620d3/tumblr_inline_mlky7tRo9r1r53miq.png);
+	font-family: 'Josefin Sans', sans-serif;
+	height:100vh;
+}
+.centro{
+    width:950px;
+    margin: 0 auto;
+	font-size: 30px;
+}
+.logo img{
+	width:850px;
+	height:250px;
+}
+h1{
+    margin: 0 auto;
+    font-family: blake;
+    padding-left:350px;
+    font-size: 90px;
+}
+.centralizada{
+    width: 950px;
+    margin: 0 auto;
+}
+.header-slogan{
+	font-size:25px;
+	text-align: center;
+	color: #FF7F00;
+}
+.menu{
+    margin: 0 auto;
+}
+.menu :last-child{
+    border-right: 0px;
+}
+.menu li {
+    list-style:none;
+    display:inline;
+    padding-left:50px;
+    padding-right: 50px;
+    border-right: 1px solid;
+	font-size:20px;
+	text-align: center;
+}
+.section{
+	padding-top:20px;
+}
+a{	
+	text-decoration: none; 
+	color: #23238E;
+}
+.art{
+	width:500px;
+}
+
+.menu li:first-child{
+    color:#B03060;
+}
+.main {
+	background-color: #F8F8FF;
+}
+
+.musica {
+	width: 150px;
+	float: left;
+ }
+
+.musica img {
+	width: 450px;
+	height: 300px;
+	margin-right: 20px;
+}
+.musica img:hover{
+	border:#191919 solid 2px;
+	opacity: 0.3;
+}
+.arte img {
+	width: 450px;
+	height: 300px;
+	margin-left: -100px;
+}
+.arte img:hover{
+	border:#191919 solid 2px;
+	opacity: 0.3;
+}
+.artemusica img {
+	width: 850px;
+	margin-top:20px;
+}
+.artemusica img:hover{
+	border:#191919 solid 2px;
+	opacity: 0.3;
+}
+.arte {
+	width: 350px;
+	float: right;
+}
+.artemusica {
+	width: 350px;
+	margin-left:45px;
+}
+.cont {
+	width: 900px;
+    margin: 0px auto;
+    text-align: center;
+	font-size:15px;
+    padding: 30px 0;
+}
+#caixa ul{
+	list-style: none;
+	text-decoration: none;
+}
+.footer{
+	margin-top:20vh;
+	background-color:rgba(248,248,255, 0.5);
+}
+.footerH{
+	margin-top: 60vh;
+	background-color:rgba(248,248,255, 0.5);
+}
+.endMidia{
+    margin-top:15vh;
+}
+e{
+	font-size: 25px;
+	text-align: center;
+}
+.contato {
+	font-size:25px;
+	color: #FF7F00;
+}
+#titulo{
+	color: #23238E;
+}
+.contato p {
+	text-align: center;
+	color: #23238E;
+}
+.botao{
+	font-size: 20px;
+	border-radius: 7px;
+	padding: 7px 10px 7px 10px;
+	margin-top: 20px;
+	background-color: #FFFFF0;
+	color: #FF7F00;
+}
+#nome{
+	border-radius: 5px;
+	background-color: #FFFFF0;
+}
+#email{
+	border-radius: 5px;
+	background-color: #FFFFF0;
+}
+#msg{
+	border-radius: 5px;
+    width: 235px;
+	height: 80px;
+	margin-top:15px;
+	margin-left:13px;
+    padding-bottom: 3px;
+	font-size:15px;
+	background-color: #FFFFF0;
+}
+#accordion{
+	width: 950px;
+	height: 250px;
+	margin: 0 auto;
+}
+#accordion,h3{
+	font-size: 2em;
+	text-align:center;
+}
+#accordion,p{
+	font-size: 1.2em;
+	padding:10px 10px;
+}
+
+#caixa{
+	border: 0.5px solid black;
+}
+.imgarmu{
+	width: 300px;
+	height: 250px;
+	padding:10px 10px;
+}
+.imgarte{	
+	width: 300px;
+	height: 250px;
+	padding:10px 10px;
+}
+
+.imgmusi{	
+	width: 300px;
+	height: 250px;
+	padding:10px 10px;
+}
+#tabs{
+	border-box: 0.6solid black;
+}
+.texto{
+	font-size:0.7em;
+}
+
+.gal{
+	-webkit-column-count: 3; /* Chrome, Safari, Opera*/ 
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+}	
+
+.gal img{ 
+	width: 100%; 
+	padding: 7px 0;
+}
+
+
+@media (max-width: 500px) {
+		
+	.gal {
+		-webkit-column-count: 1; /* Chrome, Safari, Opera */
+	    -moz-column-count: 1; /* Firefox */
+	    column-count: 1;
+	}
+	body{
+		width:1000px;
+		height:100vh;
+	}
+	.header-slogan{
+		font-size: 27px;
+	}
+	.menu li{
+		font-size: 23px;
+	}
+	.centralizada{
+		width:1000px;
+	}
+	.menu{
+		padding-left:0px;
+	}
+
+	.footer{
+    	margin-top:20vh;
+    	bottom:0;
+	}
+	.footerH{
+		margin-top: 90vh;
+	}
+	.endMidia{
+		margin-top:70vh;
+	}
+		
+}
